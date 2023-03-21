@@ -1,0 +1,32 @@
+.dropdownDiv{
+    /* margin-left: 2px; */
+    width: 100%;
+    display: flex;
+    /* border:2px solid red; */
+    justify-content: center;
+    flex-direction: column;
+    background-color: inherit;
+}
+.dropdownDiv>div{
+    width:94%;
+    /* background-color: rgb(124, 216, 19); */
+    margin-left: 2px;
+    border-radius: 10px;
+    padding: 0px;
+    background-color: rgb(155, 154, 154);
+    /* background-color: rgb(221, 221, 221); */
+}
+.dropdownDiv>div>div>button{
+    width: 100%;
+    margin: 0px;
+    background-color:rgb(155, 154, 154);
+}
+.dropdownDiv>div>div>button:hover{
+    background-color: rgb(15, 20, 10);
+}
+.dropdownDiv>div>div>button:focus{
+    background-color: rgb(155, 154, 154);
+}
+.cmYsZv.cmYsZv:hover {
+    background-color:rgb(155, 154, 154);;
+}
