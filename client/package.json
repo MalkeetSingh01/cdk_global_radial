@@ -15,7 +15,9 @@
     "react-router-dom": "^6.9.0",
     "react-scripts": "5.0.1",
     "styled-components": "^5.1.1",
-    "web-vitals": "^2.1.4"
+    "web-vitals": "^2.1.4",
+    "ag-grid-community": "^29.1.0",
+    "ag-grid-react": "^29.1.0"
   },
   "scripts": {
     "start": "react-scripts start",

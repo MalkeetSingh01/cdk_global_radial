@@ -1,0 +1,37 @@
+/* .comphead {
+  text-align: center;
+} */
+
+button[type="download"] {
+  display: flex;
+  align-items: center;
+
+  margin-top: 20px;
+  padding: 5px 10px;
+  font-size: 15px;
+  font-weight: 600;
+  background: #0062ff;
+  border: none;
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.down-icon {
+  padding-right: 5px;
+  font-size: 1.5rem;
+}
+
+.ag-theme-alpine {
+  /* height: max-content; */
+  padding: 1rem;
+  text-align: center;
+}
+
+.top-comp {
+  justify-content: center;
+}
+.top-comp h3 {
+  font-weight: 700;
+}

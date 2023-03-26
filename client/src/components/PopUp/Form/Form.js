@@ -1,8 +1,6 @@
-import React, { useEffect, useState, createContext } from "react";
+import React, { useState } from "react";
 import styles from "./form.module.css";
 import axios from "axios";
-import PopUp from "../PopUp";
-import MapTable from "../MapTable/MapTable";
 
 // export const DataContext = createContext(null);
 

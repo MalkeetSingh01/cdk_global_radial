@@ -1,11 +1,14 @@
 import SelectionDropdown from "../SelectionDropdown/SelectionDropdown";
-import { IconAddCircle,Button,BUTTON_VARIANTS  } from 'cdk-radial';
+import DataPage from "../DataPage/DataPage";
 
-const Sidebar=()=>{
+import { IconAddCircle,Button,BUTTON_VARIANTS  } from 'cdk-radial';
+import React,{useState} from "react";
+
+const Sidebar=(props)=>{
     return (
         <>
         <div style={{witdth:"96%",borderRadius:"10px",padding:"7px"}}>
-            <Button text="Add Connection" variant={BUTTON_VARIANTS.TEXT} style={{borderRadius:"10px",width:"100%",backgroundColor: "rgb(155, 154, 154)",color:"rgb(240, 250, 240)"}}/>
+            <Button onClick = {()=> props.setServerForm(true) } text="Add Connection" variant={BUTTON_VARIANTS.TEXT} style={{borderRadius:"10px",width:"100%",backgroundColor: "rgb(155, 154, 154)",color:"rgb(240, 250, 240)"}}/>
         </div>
         <SelectionDropdown type="Source"/>
         <SelectionDropdown type="Target"/>

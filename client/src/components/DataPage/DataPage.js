@@ -7,7 +7,7 @@ import { SiOracle, SiMongodb } from "react-icons/si";
 import "./DataPage.css";
 import ServerForm from "../ServerForm/ServerForm";
 
-export default function DataPage({ serverCreated, setServerCreated }) {
+export default function DataPage({ serverCreated, setServerCreated ,setServerConn}) {
   const [selectedForm, setSelectedForm] = useState(null);
   return (
     <PopComp>
@@ -23,7 +23,8 @@ export default function DataPage({ serverCreated, setServerCreated }) {
             <h2 className="heading">Enter your {selectedForm} Details</h2>
           </>
         ) : (
-          <h2>Select Your Database</h2>
+          <div className="data-head" onClick={()=>setServerConn(false)}><button>Exit</button>
+          <h2>Select Your Database</h2></div>
         )}
       </div>
 

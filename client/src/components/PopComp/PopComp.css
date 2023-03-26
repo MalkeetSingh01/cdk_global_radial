@@ -15,9 +15,10 @@
 }
 
 .popup-inner {
-  width: 60vw;
+  width: max-content;
   height: auto;
-
+  position: relative;
+  overflow-y: auto;
   background-color: white;
   border-radius: 5px;
   box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
